@@ -40,9 +40,38 @@
       <sv:property sv:name="hst:label" sv:type="String">
         <sv:value>Home Page Main</sv:value>
       </sv:property>
+      <sv:property sv:name="hst:lastmodified" sv:type="Date">
+        <sv:value>2017-09-15T11:35:17.512+02:00</sv:value>
+      </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
         <sv:value>hst.nomarkup</sv:value>
       </sv:property>
+      <sv:node sv:name="decisiontree">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containeritemcomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentclassname" sv:type="String">
+          <sv:value>org.onehippo.cms7.essentials.components.EssentialsDocumentComponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:iconpath" sv:type="String">
+          <sv:value>images/essentials/catalog-component-icons/simple-content.png</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:label" sv:type="String">
+          <sv:value>Decision tree</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>document</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value>decision-trees/insurance-decision-tree/root-node</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>decisiontree-component</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>hst.item</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
   </sv:node>
   <sv:node sv:name="pagenotfound">

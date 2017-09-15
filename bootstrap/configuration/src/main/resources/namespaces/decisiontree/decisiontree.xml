@@ -28,7 +28,7 @@
         <sv:value>hipposysedit:remodel</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>863a380a-a283-41eb-a293-e892a4c49c75</sv:value>
+        <sv:value>770f74c8-e84c-4897-8088-d070827d606a</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
         <sv:value>true</sv:value>
@@ -124,7 +124,7 @@
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>d4973e8e-b4bb-44da-a220-c207ab3963bf</sv:value>
+        <sv:value>96b38596-fd7f-44a6-9b7b-e83ce4725c2d</sv:value>
       </sv:property>
       <sv:property sv:name="decisiontree:name" sv:type="String">
         <sv:value/>
@@ -231,6 +231,9 @@
         <sv:property sv:name="field" sv:type="String">
           <sv:value>children</sv:value>
         </sv:property>
+        <sv:property sv:name="hint" sv:type="String">
+          <sv:value/>
+        </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin</sv:value>
         </sv:property>
@@ -240,6 +243,9 @@
         <sv:node sv:name="cluster.options">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>frontend:pluginconfig</sv:value>
+          </sv:property>
+          <sv:property sv:name="nodetypes" sv:type="String" sv:multiple="true">
+            <sv:value>decisiontree:decisiontree</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
@@ -265,6 +271,12 @@
         <sv:node sv:name="cluster.options">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>frontend:pluginconfig</sv:value>
+          </sv:property>
+          <sv:property sv:name="last.visited.nodetypes" sv:type="String" sv:multiple="true">
+            <sv:value>decisiontree:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="nodetypes" sv:type="String" sv:multiple="true">
+            <sv:value>decisiontree:contentdocument</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
