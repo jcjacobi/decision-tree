@@ -1,0 +1,58 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-content-folder": "new content folder",
+      "new-content-document": "new content document",
+      "new-resource-bundle": "new resource bundle",
+      "new-untranslated-folder": "new untranslated folder"
+    },
+    "nl":     {
+      "new-content-folder": "nieuwe contentmap",
+      "new-content-document": "nieuw content document",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-untranslated-folder": "nieuwe onvertaalde map"
+    },
+    "de":     {
+      "new-content-folder": "Neuer Content-Ordner",
+      "new-content-document": "Neues Content-Document",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner"
+    },
+    "fr":     {
+      "new-content-folder": "nouveau dossier contenu",
+      "new-content-document": "nouveau document contenu",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-untranslated-folder": "nouveau dossier non traduit"
+    }
+  },
+  "hippo:types": {"decisiontree:contentdocument":   {
+    "en":     {
+      "decisiontree:introduction": "Introduction",
+      "decisiontree:title": "Title",
+      "decisiontree:content": "Content",
+      "jcr:name": "Simple Document",
+      "decisiontree:publicationdate": "Publication date"
+    },
+    "nl":     {
+      "decisiontree:introduction": "Introductie",
+      "decisiontree:title": "Titel",
+      "decisiontree:content": "Inhoud",
+      "jcr:name": "Eenvoudig Document",
+      "decisiontree:publicationdate": "Publicatiedatum"
+    },
+    "fr":     {
+      "decisiontree:introduction": "Introduction",
+      "decisiontree:title": "Titre",
+      "decisiontree:content": "Contenu",
+      "jcr:name": "Document simple",
+      "decisiontree:publicationdate": "Date de publication"
+    },
+    "de":     {
+      "decisiontree:introduction": "Einführung",
+      "decisiontree:title": "Titel",
+      "decisiontree:content": "Inhalt",
+      "jcr:name": "Einfaches Dokument",
+      "decisiontree:publicationdate": "Publikationsdatum"
+    }
+  }}
+}

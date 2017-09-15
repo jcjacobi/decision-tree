@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project>
-  <projectNamespace>decisiontree</projectNamespace>
-  <confirmParams>false</confirmParams>
-  <selectedProjectPackage>org.decisiontree</selectedProjectPackage>
-  <selectedBeansPackage>org.decisiontree.beans</selectedBeansPackage>
-  <selectedComponentsPackage>org.decisiontree.components</selectedComponentsPackage>
-  <selectedRestPackage>org.decisiontree.rest</selectedRestPackage>
-  <setupDone>false</setupDone>
-  <templateLanguage>freemarker</templateLanguage>
-  <useSamples>true</useSamples>
-  <extraTemplates>true</extraTemplates>
+    <name>project-settings</name>
+    <beansFolder>site/src/main/java</beansFolder>
+    <bootstrapModule>bootstrap</bootstrapModule>
+    <cmsModule>cms</cmsModule>
+    <confirmParams>false</confirmParams>
+    <extraTemplates>true</extraTemplates>
+    <projectNamespace>decisiontree</projectNamespace>
+    <selectedBeansPackage>org.decisiontree.beans</selectedBeansPackage>
+    <selectedComponentsPackage>org.decisiontree.components</selectedComponentsPackage>
+    <selectedProjectPackage>org.decisiontree</selectedProjectPackage>
+    <selectedRestPackage>org.decisiontree.rest</selectedRestPackage>
+    <setupDone>true</setupDone>
+    <siteModule>site</siteModule>
+    <templateLanguage>freemarker</templateLanguage>
+    <useSamples>true</useSamples>
+    <webfilesSubModule>webfiles</webfilesSubModule>
 </project>
