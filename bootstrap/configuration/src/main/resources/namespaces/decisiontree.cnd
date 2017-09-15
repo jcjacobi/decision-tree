@@ -10,3 +10,6 @@
 [decisiontree:contentdocument] > decisiontree:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[decisiontree:decisiontree] > decisiontree:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
